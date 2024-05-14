@@ -1,10 +1,8 @@
-
-
-<H1 ALIGN =CENTER>EX 5 Implementation of XOR  using RBF</H1>
-<H3>Aim:</H3>
+## EX 5 Implementation of XOR  using RBF
+# Aim:
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
 
-<H3>Theory:</H3>
+# Theory:
 <P>Exclusive or is a logical operation that outputs true when the inputs differ.For the XOR gate, the TRUTH table will be as follows XOR truth table </P>
 
 <P>XOR is a classification problem, as it renders binary distinct outputs. If we plot the INPUTS vs OUTPUTS for the XOR gate, as shown in figure below </P>
@@ -21,7 +19,7 @@ A Neural network with input layer, one hidden layer with Radial Basis function a
 
 
 
-<H3>ALGORITHM:</H3>
+## ALGORITHM:
 Step 1: Initialize the input  vector for you bit binary data<Br>
 Step 2: Initialize the centers for two hidden neurons in hidden layer<Br>
 Step 3: Define the non- linear function for the hidden neurons using Gaussian RBF<br>
@@ -31,7 +29,7 @@ Step 5 : Determine the output  function as
 Step 6: Test the network for accuracy<br>
 Step 7: Plot the Input space and Hidden space of RBF NN for XOR classification.
 
-<H3>PROGRAM:</H3>
+## PROGRAM:
 
 ```
 import numpy as np
@@ -105,12 +103,12 @@ print(f"Input:{np.array([0, 1])}, Predicted: {predict_matrix(np.array([0, 1]), w
 print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w)}")
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 ```
-<H3>OUTPUT:</H3>
+## OUTPUT:
 ![image](https://github.com/vidhyasrikachapalayam/Ex-5--NN/assets/119477817/a0ebf91c-186e-4df8-95b1-83df6001e163)
 
 
 
-<H3>Result:</H3>
+## Result:
 Thus , a Radial Basis Function Neural Network is implemented to classify XOR data.
 
 
