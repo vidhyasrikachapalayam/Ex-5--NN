@@ -1,6 +1,6 @@
 
-<H3>EX. NO.5</H3>
-<H1 ALIGN =CENTER>Implementation of XOR  using RBF</H1>
+
+<H1 ALIGN =CENTER>EX 5 Implementation of XOR  using RBF</H1>
 <H3>Aim:</H3>
 To implement a XOR gate classification using Radial Basis Function  Neural Network.
 
